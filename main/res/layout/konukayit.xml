@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/arkaplan"
+    >
+
+    <TextView
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tarih :"
+        android:id="@+id/textView8"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="30dp"
+        android:layout_alignBottom="@+id/textView9" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView9"
+        android:layout_marginTop="40dp"
+        android:text="tarihi getir"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Çalışma Süresi (dk)"
+        android:id="@+id/textView10"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:inputType="numberDecimal"
+        android:id="@+id/editText7"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignRight="@+id/textView9"
+        android:layout_alignEnd="@+id/textView9"
+        android:layout_toRightOf="@+id/textView10"
+        android:layout_toEndOf="@+id/textView10" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Soru Sayısı :"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/editText7"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:digits="0123456789"
+        android:inputType="numberDecimal"
+        android:layout_alignRight="@+id/editText7"
+        android:layout_alignEnd="@+id/editText7"
+        android:layout_below="@+id/editText7"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_alignLeft="@+id/editText7"
+        android:layout_alignStart="@+id/editText7" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Çözme Süresi (dk)"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView11"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText9"
+        android:digits="0123456789"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/editText8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/editText10"
+        android:layout_alignLeft="@+id/editText8"
+        android:layout_alignStart="@+id/editText8" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Doğru Sayısı :"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/textView12"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText10"
+        android:digits="0123456789"
+        android:inputType="numberDecimal"
+        android:layout_alignBottom="@+id/textView13"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView12"
+        android:layout_alignLeft="@+id/editText8"
+        android:layout_alignStart="@+id/editText8" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Yanlış Sayısı :"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/editText10"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText11"
+        android:digits="0123456789"
+        android:inputType="numberDecimal"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignLeft="@+id/editText10"
+        android:layout_alignStart="@+id/editText10"
+        android:layout_alignRight="@+id/editText9"
+        android:layout_alignEnd="@+id/editText9"
+        android:layout_below="@+id/editText10" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Boş Sayısı :"
+        android:id="@+id/textView15"
+        android:layout_below="@+id/editText11"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText12"
+        android:digits="0123456789"
+        android:inputType="numberDecimal"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_alignLeft="@+id/editText11"
+        android:layout_alignStart="@+id/editText11"
+        android:layout_alignRight="@+id/editText9"
+        android:layout_alignEnd="@+id/editText9"
+        android:layout_below="@+id/editText11" />
+
+    <Button
+        style="@style/CustomButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaydet"
+        android:id="@+id/button4"
+        android:background="@drawable/mybutton"
+        android:alpha="0.6"
+        android:layout_marginBottom="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="@style/CustomButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Durumunu Gör"
+        android:id="@+id/button5"
+        android:background="@drawable/mybutton"
+        android:alpha="0.6"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

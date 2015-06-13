@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/arkaplan">
+    <TextView
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Bölüm Seçimi :"
+        android:id="@+id/bolumsecimi"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Konu Sorgula :"
+        android:id="@+id/textView16"
+        android:layout_marginTop="144dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:textColor="#3399FF"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ders Sorgula :"
+        android:id="@+id/textView17"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="82dp"
+        android:layout_centerVertical="true" />
+
+    <Button
+        style="@style/CustomButtonStyle"
+        android:alpha="0.6"
+        android:shadowRadius="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SORGULA"
+        android:id="@+id/button5"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp" />
+    <Spinner
+        style="@style/spinner_style"
+        android:background="#FFBB00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alanspin"
+        android:layout_alignBottom="@+id/bolumsecimi"
+        android:layout_toRightOf="@+id/bolumsecimi"
+        android:layout_toEndOf="@+id/bolumsecimi"
+        android:textColor="#FFF"
+        android:layout_alignTop="@+id/bolumsecimi" />
+    <Spinner
+        style="@style/spinner_style"
+        android:background="#FFBB00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner4"
+        android:layout_alignBottom="@+id/textView16"
+        android:layout_toRightOf="@+id/textView16"
+        android:layout_toEndOf="@+id/textView16"
+        android:textColor="#FFF"
+        android:layout_alignTop="@+id/textView16" />
+
+    <Spinner
+        android:background="#FFBB00"
+        style="@style/spinner_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner5"
+        android:textColor="#FFF"
+        android:layout_alignBottom="@+id/textView17"
+        android:layout_toRightOf="@+id/textView17"
+        android:layout_toEndOf="@+id/textView17"
+        android:layout_alignTop="@+id/textView17" />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kursat.myapplication.Grafik" >
+
+    <item
+        android:id="@+id/calisma_suresi_gun"
+        android:title="Çalışma Süresi/Gün"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/soru_zaman"
+        android:title="Soru/Zaman"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/net_gun"
+        android:title="Net/Gün"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/hiz_gun"
+        android:title="Hız/Gün"
+        app:showAsAction="never"/>
+</menu>

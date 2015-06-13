@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">#000</item>
+    </style>
+
+        <style name="CustomText" parent="Theme.AppCompat.Light.DarkActionBar">
+            <item name="android:textSize">20sp</item>
+            <item name="android:textColor">#000</item>
+        </style>
+    <style name="CustomButtonStyle">
+        <item name="android:background">#cccccc</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:capitalize">characters</item>
+        <item name="android:shadowDx">1.2</item>
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:gravity" >center</item>
+        <item name="android:layout_margin" >3dp</item>
+        <item name="android:textSize" >8pt</item>
+        <item name="android:shadowColor" >#000000</item>
+        <item name="android:textColor" >#fff</item>
+        <item name="android:textStyle" >bold</item>
+    </style>
+    <style name="CustomButtonStyle2">
+        <item name="android:background">#FFBB00</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:capitalize">characters</item>
+        <item name="android:shadowDx">1.2</item>
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:gravity" >center</item>
+        <item name="android:layout_margin" >3dp</item>
+        <item name="android:textSize" >8pt</item>
+        <item name="android:shadowColor" >#000000</item>
+        <item name="android:textColor" >#fff</item>
+        <item name="android:textStyle" >bold</item>
+    </style>
+
+    <style name="spinner_style">
+        <item name="android:popupBackground">#FFBB00</item>
+    </style>
+
+
+</resources>

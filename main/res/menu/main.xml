@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Program">
+    <group>
+        <item
+            android:id="@+id/action_add_line"
+            android:icon="@drawable/abc_ic_menu_paste_mtrl_am_alpha"
+            android:orderInCategory="100"
+            android:showAsAction="always|withText"
+            android:title="@string/action_home" />
+        <item
+            android:id="@+id/action_home"
+            android:icon="@drawable/home"
+            android:orderInCategory="100"
+            android:showAsAction="always|withText"
+            android:title="@string/action_home" />
+    </group>
+</menu>

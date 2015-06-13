@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="match_parent"
+    android:background="@drawable/arkaplan">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            style="@style/CustomButtonStyle"
+            android:layout_width="165dp"
+            android:layout_height="61dp"
+            android:background="@drawable/mybutton"
+            android:alpha="0.6"
+            android:text="Durumunu Gör"
+            android:id="@+id/button5"
+            android:layout_gravity="center_horizontal|bottom" />
+
+        <Button
+            style="@style/CustomButtonStyle2"
+    android:layout_width="156dp"
+    android:layout_height="wrap_content"
+    android:text="YGS"
+            android:background="@drawable/mybutton"
+            android:alpha="0.6"
+    android:id="@+id/button4"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="left|center_vertical" />
+
+        <Button
+            style="@style/CustomButtonStyle2"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutton"
+            android:alpha="0.6"
+            android:text="LYS"
+            android:id="@+id/button7"
+            android:layout_gravity="right|center_vertical" />
+
+        <TextView
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Hazır mısın ?"
+        android:id="@+id/textView8"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="27dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="right|top"
+        android:textColor="#3399FF"
+        android:textSize="32dp"
+        android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="202dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sınav Türü Seç"
+            android:id="@+id/textView9"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="27dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="right|center_vertical"
+            android:textColor="#3399FF"
+            android:textSize="22dp"
+            android:textStyle="bold"/>
+
+        <Button
+            style="@style/CustomButtonStyle2"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:text="Ders Programı"
+            android:background="@drawable/mybutton"
+            android:alpha="0.6"
+            android:id="@+id/button9"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="right|top" />
+
+
+    </FrameLayout>
+
+</RelativeLayout>

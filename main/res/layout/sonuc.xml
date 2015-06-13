@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/arkaplan"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tarih :"
+        android:id="@+id/stextView8"
+        android:layout_alignTop="@+id/stextView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="30dp"
+        android:layout_alignBottom="@+id/stextView9"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/stextView9"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/stextView10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Çalışma Süresi (dk)"
+        android:id="@+id/stextView10"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/stextView8"
+        android:layout_alignLeft="@+id/stextView8"
+        android:layout_alignStart="@+id/stextView8" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:inputType="numberDecimal"
+        android:id="@+id/seditText7"
+        android:layout_alignBottom="@+id/stextView10"
+        android:layout_alignRight="@+id/stextView9"
+        android:layout_alignEnd="@+id/stextView9"
+        android:layout_toRightOf="@+id/stextView10"
+        android:layout_toEndOf="@+id/stextView10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Soru Sayısı :"
+        android:id="@+id/stextView11"
+        android:layout_below="@+id/seditText7"
+        android:layout_alignLeft="@+id/stextView10"
+        android:layout_alignStart="@+id/stextView10"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seditText8"
+        android:digits="0123456789"
+        android:inputType="numberDecimal"
+        android:layout_alignRight="@+id/seditText7"
+        android:layout_alignEnd="@+id/seditText7"
+        android:layout_below="@+id/seditText7"
+        android:layout_alignBottom="@+id/stextView11"
+        android:layout_alignLeft="@+id/seditText7"
+        android:layout_alignStart="@+id/seditText7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Çözme Süresi (dk)"
+        android:id="@+id/stextView12"
+        android:layout_below="@+id/stextView11"
+        android:layout_alignLeft="@+id/stextView11"
+        android:layout_alignStart="@+id/stextView11"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seditText9"
+        android:digits="0123456789"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/seditText8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/seditText10"
+        android:layout_alignLeft="@+id/seditText8"
+        android:layout_alignStart="@+id/seditText8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Doğru Sayısı :"
+        android:id="@+id/stextView13"
+        android:layout_below="@+id/stextView12"
+        android:layout_alignLeft="@+id/stextView11"
+        android:layout_alignStart="@+id/stextView11"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seditText10"
+        android:digits="0123456789"
+        android:inputType="numberDecimal"
+        android:layout_alignBottom="@+id/stextView13"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/stextView12"
+        android:layout_alignLeft="@+id/seditText8"
+        android:layout_alignStart="@+id/seditText8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Yanlış Sayısı :"
+        android:id="@+id/stextView14"
+        android:layout_below="@+id/seditText10"
+        android:layout_alignLeft="@+id/stextView13"
+        android:layout_alignStart="@+id/stextView13"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seditText11"
+        android:digits="0123456789"
+        android:inputType="numberDecimal"
+        android:layout_alignBottom="@+id/stextView14"
+        android:layout_alignLeft="@+id/seditText10"
+        android:layout_alignStart="@+id/seditText10"
+        android:layout_alignRight="@+id/seditText9"
+        android:layout_alignEnd="@+id/seditText9"
+        android:layout_below="@+id/seditText10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Boş Sayısı :"
+        android:id="@+id/stextView15"
+        android:layout_below="@+id/seditText11"
+        android:layout_alignLeft="@+id/stextView14"
+        android:layout_alignStart="@+id/stextView14"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seditText12"
+        android:digits="0123456789"
+        android:inputType="numberDecimal"
+        android:layout_alignBottom="@+id/stextView15"
+        android:layout_alignLeft="@+id/seditText11"
+        android:layout_alignStart="@+id/seditText11"
+        android:layout_alignRight="@+id/seditText9"
+        android:layout_alignEnd="@+id/seditText9"
+        android:layout_below="@+id/seditText11" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/stextView15">
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner6"
+            android:layout_gravity="center"
+            android:popupBackground="#CCC"
+            android:background="#FFBB00"
+            style="@style/spinner_style"
+            android:textColor="#FFF"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="grafik"
+            android:id="@+id/button10"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/textView18"
+            android:layout_toEndOf="@+id/textView18"
+            android:layout_gravity="center_horizontal|bottom" />
+    </FrameLayout>
+
+
+</RelativeLayout>

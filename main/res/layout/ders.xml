@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFF">
+
+    <ImageView
+        android:src="@drawable/sinav_kocu"
+        android:layout_width="wrap_content"
+        android:layout_height="114dp"
+        android:layout_weight="0.20"
+        android:layout_marginTop="42dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#3399FF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ders Seçiniz"
+        android:id="@+id/textView99"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageView"
+        android:layout_toLeftOf="@+id/imageView"
+        android:layout_toStartOf="@+id/imageView"
+        android:layout_marginTop="54dp" />
+
+    <Spinner
+        style="@style/spinner_style"
+        android:spinnerMode="dropdown"
+        android:layout_width="@dimen/abc_action_bar_stacked_tab_max_width"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2"
+        android:scrollbarStyle="insideInset"
+        android:background="#FFBB00"
+        android:layout_alignLeft="@+id/spinner3"
+        android:layout_alignStart="@+id/spinner3"
+        android:layout_alignTop="@+id/textView99"
+        android:layout_alignBottom="@+id/textView99" />
+
+
+    <TextView
+        android:textColor="#3399FF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Konu Seçiniz"
+        android:id="@+id/textView190"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView99"
+        android:layout_toLeftOf="@+id/imageView"
+        android:layout_toStartOf="@+id/imageView"
+        android:layout_marginTop="139dp" />
+
+
+
+    <Spinner
+        style="@style/spinner_style"
+        android:layout_width="@dimen/abc_action_bar_stacked_tab_max_width"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner3"
+        android:background="#FFBB00"
+        android:layout_alignTop="@+id/textView190"
+        android:layout_toRightOf="@+id/textView190"
+        android:layout_toEndOf="@+id/textView190"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp"
+        android:layout_alignBottom="@+id/textView190" />
+
+
+
+    <Button
+        style="@style/CustomButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Çalışma Kaydet"
+        android:id="@+id/button6"
+        android:background="@drawable/mybutton"
+        android:alpha="0.6"
+        android:layout_marginBottom="51dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
